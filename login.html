@@ -57,25 +57,34 @@
     color: black;
     }
     .kandungan {
-    overflow: hidden;
-    text-decoration: none;
+    margin: auto;
     text-align: center;
-    border-radius: 5px;
-    padding: 20px;
-    padding-bottom: 10PX;
     }
-    .username {
-    text-align: center;
-    float: left;
-    width: 75%;
-    margin-top: 6px;
+    a {
+    margin: 0;
     }
-    .password {
-    text-align: center;
-    float: left;
-    width: 75%;
-    margin-top: 6px;
+    .table1 {
+    border: solid;
+    width: 30%;
+    margin: auto;
     padding-bottom: 10px;
+    padding-top: 10px;
+    }
+    a {
+    margin: 0;
+    }
+    .p1 {
+    text-align: center;
+    }
+    .p2 {
+    text-align: center;
+    }
+    .p3 {
+    text-align: center;
+    }
+    .masuk {
+    margin-right: 5px;
+    text-align: center;
     }
     .kaki {
     border: solid;
@@ -108,18 +117,25 @@
     </div>
     
     <!--Content-->
-    <div class="kandungan">
-      <h1>Login</h1>
-      <div class="username">
-      <label for="username">Username</label>
-      <input type="text" id="username" name="username">
-      </div>
+      <div class="kandungan">
+        <h1>Login</h1>
+      <table class="table1">
+        <tr class="p1">
+          <td>
+            <p>Username <input type="text"></p>
+          </td>
+        </tr>
+        <tr class="p2">
+          <td>
+            <p>Passwords <input type="text"></p>
+          </td>
+        </tr>
+        <tr class="p3">
+          <td> <input type="submit" value="Login" class="masuk">
+            <input type="reset" class="padam"></td>
+        </tr>
+      </table>
     </div>
-    <div class="password">
-      <label for="password">Password</label>
-      <input type="text" id="password" name="password">
-    </div>
-  </div>
     
     <!--Footer-->
     <div class="kaki">

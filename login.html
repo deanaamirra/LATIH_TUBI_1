@@ -57,8 +57,19 @@
     color: black;
     }
     .kandungan {
-    overflow: hidden;
-    text-decoration: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    }
+    .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    }
+    .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
     }
     .kaki {
     border: solid;
@@ -91,6 +102,23 @@
     </div>
     
     <!--Content-->
+    <div class="kandungan">
+      <h1>Login</h1>
+      <div class="col-25">
+      <label for="username">Username</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="username" name="username">
+      </div>
+    </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="password">Password</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="password" name="password">
+    </div>
+  </div>
     
     <!--Footer-->
     <div class="kaki">
